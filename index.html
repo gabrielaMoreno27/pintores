@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pintores</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    function ConfirmDemo() {
+    var mensaje = confirm("Antes de continuar, nos gustaría saber, ¿te gustó la página?");
+    if (mensaje) {
+alert("¡Muchas gracias! :D");
+    }
+    else {
+    alert("Gracias por comentarlo, mejoraremos para brindarte una mejor experiencia. :(");
+    }
+    }
+    </script>
+
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img style="width: 30px; height: 30px;" src="jaja.png" alt=""></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">Inicio</a></li>
+        <li><a href="#art">Artistas</a></li>
+        <li><a href="#datos">Datos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Más
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://theuselessweb.com">¿Aburrido?</a></li>
+            <li><a target="_blank" href="extra.html">Extra</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="Arjip Kuindzhi.jpg" alt="Arjip" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Arjip Kuindzhi</h3>
+          <p>Paisajista ruso de ascendencia griega.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="Sofonisba Anguissola.jpg" alt="Sofonisba" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Sofonisba Anguissola</h3>
+          <p>Pintora italiana considerada la primera mujer pintora de éxito del Renacimiento.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="Francisco de Zurbaran.jpg" alt="Francisco de Zurbarán" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Francisco de Zurbarán</h3>
+          <p>Pintor del Siglo de Oro español.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="Georges de la Tour.jpg" alt="Georges de la Tour" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Georges de la Tour</h3>
+          <p>Pintor francés barroco.</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div id="art" class="container text-center">
+  <h3>MIS PINTORES FAVORITOS</h3>
+  <p><em>¡Amamos el arte!</em></p>
+  <p>¿Tu también? Entonces te invitamos a que te adentres en la vida de estos pintores y conozcas un poco más acerca de su vida y sus obras. Los pintores que verás a continuación son una pequeña selección creada por la creadora de la página, espero y los disfrutes.</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>La Gioconda</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img style="width: 250px; height: 250px;" src="i1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>La Mona Lisa</p>
+        <p>Leonardo da Vinci</p>
+        <p>1503</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>De sterrennacht</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img style="width: 250px; height: 250px;" src="i2.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>La noche estrellada</p>
+        <p>Vincent van Gogh</p>
+        <p>1889</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>El viejo guitarrista ciego</strong></p><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img style="width: 250px; height: 250px;" src="i3.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>El viejo guitarrista ciego</p>
+        <p>Pablo Picasso</p>
+        <p>1904</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="datos" class="bg-1">
+  <div class="container">
+    <h3 class="text-center">DATOS DE LOS PINTORES</h3>
+    <p class="text-center">Si deseas conocer la biografía solo da click en el nombre, para conocer unos datos interesantes oprime el botón "Suerte"</p>
+    <ul class="list-group">
+      <li class="list-group-item"><a target="_blank" href="p1.html">Arjip Kuindzhi</a></li>
+      <li class="list-group-item"><a target="_blank" href="p2.html">Sofonisba Anguissola</a></li>
+      <li class="list-group-item"><a target="_blank" href="p3.html">Francisco de Zurbarán</a></li>
+      <li class="list-group-item"><a target="_blank" href="p4.html">Georges de la Tour</a></li>
+    </ul>
+    
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="p1.jpg" alt="Arjip" width="400" height="300">
+          <p><strong>Arjip Kuindzhi</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal">Suerte</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="p2.jpg" alt="Sofonisba" width="400" height="300">
+          <p><strong>Sofonisba Anguissola</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal2">Suerte</button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="p3.jpg" alt="Francisco" width="400" height="300">
+          <p><strong>Francisco de Zurbarán</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal3">Suerte</button>
+        </div>
+      </div>
+      <div>&nbsp;</div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="p4.jpg" alt="Georges" width="400" height="300">
+          <p><strong>Georges de la Tour</strong></p>
+          <button class="btn" data-toggle="modal" data-target="#myModal4">Suerte</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4></span>Arjip Kuindzhi</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+                <p>El domingo 27 de enero del año 2019 un cuadro del artista ruso fue robado a plena luz del día y el sospechoso fue detenido un día después.</p>
+            </div>
+              <button type="submit" class="btn btn-block">¡Interesante! 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancelar
+          </button>
+          <p>Necesitas <a href="#contact">ayuda?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4></span>Sofonisba Anguissola</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+                <p>Debido a que en su época era mal visto que las mujeres pintaran desnudos (los cuales eran fundamentales en el desarrollo del movimiento renacentista), la pintora se centró en retratos, primero de su familia y posteriormente de otras personalidades, aunque en su producción se puede apreciar fácilmente un toque de frescura y originalidad debido principalmente a las poses, poco formales en aquel tiempo, con las que colocaba a sus retratados. Gracias a esta originalidad, su mirada ha perdurado en el tiempo y ha permitido que su rostro llegara hasta la actualidad.</p>
+            </div>
+              <button type="submit" class="btn btn-block">¡Interesante! 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancelar
+          </button>
+          <p>Necesitas <a href="#contact">ayuda?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4></span>Francisco de Zurbarán</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+                <p>Sevilla se va a constituir a lo largo del XVII en principal foco pictórico de la época, alumbrando durante el primer tercio del siglo a tres de las figuras más importantes del Barroco español, junto con Velázquez: Zurbarán, Alonso Cano y Murillo.
+                    De todos ellos, será el extremeño Francisco de Zurbarán el primero en iniciar esta nueva andadura, siendo recordado a día de hoy principalmente como el "pintor de los monjes".
+                    
+                    </p>
+            </div>
+              <button type="submit" class="btn btn-block">¡Interesante! 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancelar
+          </button>
+          <p>Necesitas <a href="#contact">ayuda?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4></span>Georges de la Tour</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form">
+            <div class="form-group">
+                <p>Georges de la Tour murió durante la epidemia de peste de 1652; ha pasado a la historia como uno de los grandes representantes del clasicismo francés, pese a lo cual su obra permaneció en el olvido durante varios siglos. Tuvo un hijo, Étienne, que también fue pintor.</p>
+            </div>
+              <button type="submit" class="btn btn-block">¡Interesante! 
+                <span class="glyphicon glyphicon-ok"></span>
+              </button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+            <span class="glyphicon glyphicon-remove"></span> Cancelar
+          </button>
+          <p>Necesitas <a href="#contact">ayuda?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="contacto" class="container">
+  <h3 class="text-center">Contacto</h3>
+  <p class="text-center"><em>Para cualquier comentario, escríbenos.</em></p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Contáctate con nosotros</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>CBTis 122</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +52 6145392645</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: gabrielamorenotorres23@hotmail.com</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Escribe algo..." rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <form><input class="btn pull-right" type="button" onclick="ConfirmDemo()" value="Enviar" /></form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <h3 class="text-center">Acerca de nosotros</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Alumno</a></li>
+    <li><a data-toggle="tab" href="#menu1">Profesor</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Carla Gabriela Moreno Torres</h2>
+      <p><b>Grado:</b>4° <br> <b>Grupo:</b>E</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2>Raul Toledo</h2>
+      <p>Docente: M.S.I. Raúl Alberto Toledo Piñón</p>
+    </div>
+  </div>
+</div>
+
+<!-- fotito bonita -->
+<img src="banner.jpg" class="img-responsive" style="width:100%">
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <center> <h4>Sígueme en mis redes sociales</h4>
+      <a target="_blank" href="https://www.instagram.com/gabriela_moreno10/"><img style="width: 50px; height: 50px;" src="ig.png" alt=""></a>
+<a target="_blank" href="https://www.facebook.com/profile.php?id=100045388806939"><img style="width: 50px; height: 50px;" src="fb.png" alt=""></a>
+<a href="mailto:gabrielamorenotorres23@hotmail.com"><img style="width: 50px; height: 50px;" src="correo.png" alt=""></a>
+</center>
+</footer>
+<link rel="stylesheet" href="programacion.js">
+</body>
+</html>
